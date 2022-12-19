@@ -67,7 +67,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2">
           <div className="fleft m-auto">
             <p>
               My name is Aniket Pratap Singh and I'm a passionate Frontend
@@ -80,13 +80,13 @@ const About = () => {
             {/* <p>I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.</p> */}
           </div>
 
-          <div className="fright mt-8 grid  grid-cols-3 gap-4 mx-4">
+          <div className="grid  grid-cols-2 lg:grid-cols-3 gap-3 mx-auto mt-8  ">
             {skills.map(({ id, name }) => (
               <div
               
               
               key={id}
-              className="bg-zinc-300 rounded-md   flex justify-center align-middle p-2">
+              className="bg-zinc-300 rounded-md   flex justify-center ">
                 {name}
               </div>
              

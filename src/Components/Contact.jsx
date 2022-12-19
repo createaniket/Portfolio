@@ -7,13 +7,13 @@ const Contact = () => {
 
     <div name='contact'  className='w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white '>
       
-      <div className='flex flex-col p-4 justify-center items-center max-w-screen-lg mx-auto h-full '  >
+      <div className='flex flex-col p-4 justify-center items-center mx-auto  '  >
         <div  className='pb-8' >
             <p className='text-4xl font-bold  hover:border-b-4 rounded-r-lg rounded-l-lg duration-200 border-gray-500 flex justify-center' >Contact</p>
             <p className='pt-8 text-6xl flex justify-center'>Say Hello!</p>
             <p className='py-6'>Submit the form below so I can get back to you as soon as possible</p>
         </div>
-        <div className='grid grid-cols-2 gap-x-96 '>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-x-96 '>
 
         <div className='m-auto  '>
 

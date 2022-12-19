@@ -1,10 +1,10 @@
 import React from "react";
 import plantShop from "../assets/portfolio/Final-logo-plant-shop.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import inotebook from "../assets/portfolio/portfolio latpop and mobile.png";
+import navbar from "../assets/portfolio/navbarresp.png";
 import GamingProject from "../assets/portfolio/gamingProject.png";
 import textUtils from "../assets/portfolio/TextUtils-latpop-and-mobile.png";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -25,8 +25,8 @@ const Portfolio = () => {
     {
       id: 3,
       src: navbar,
-      link:"https://aniket-plant-shop.netlify.app/",
-      glink:"https://github.com/createaniket/gaming-site-project"
+      link:"https://astonishing-basbousa-7fca4a.netlify.app/",
+      glink:"https://github.com/createaniket/Responsive-Navbar-React"
 
     },
     {
@@ -38,24 +38,17 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: installNode,
-      link:"https://aniket-plant-shop.netlify.app/",
-      glink:"https://github.com/createaniket/gaming-site-project"
+      src: inotebook,
+      link:"https://aniket-inotebook.netlify.app/",
+      glink:"https://github.com/createaniket/INoteBook"
 
-    },
-    {
-      id: 6,
-      src: reactWeather,
-      llink:"https://aniket-plant-shop.netlify.app/",
-      glink:"https://github.com/createaniket/gaming-site-project"
-
-    },
+    }
   ];
 
   return (
     <div
       name="works"
-      className="bg-gradient-to-b to-white from-slate-400 w-full text-white md:h-screen lg:h-auto "
+      className="bg-gradient-to-b to-white from-slate-400 w-full text-black md:h-screen lg:h-auto "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pt-19 mt-10">

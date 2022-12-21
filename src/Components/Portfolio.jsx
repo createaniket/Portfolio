@@ -11,13 +11,13 @@ const Portfolio = () => {
     {
       id: 1,
       src: plantShop,
-      link:"https://aniket-plant-shop.netlify.app/",
+      live:"https://aniket-plant-shop.netlify.app/",
       glink:"https://github.com/createaniket/Plant-Shop-Frontend"
     },
     {
       id: 2,
       src: GamingProject,
-      link:"https://aniket-gaming-site.netlify.app/",
+      live:"https://aniket-gaming-site.netlify.app/",
       glink:"https://github.com/createaniket/gaming-site-project"
 
 
@@ -25,21 +25,21 @@ const Portfolio = () => {
     {
       id: 3,
       src: navbar,
-      link:"https://astonishing-basbousa-7fca4a.netlify.app/",
+      live:"https://astonishing-basbousa-7fca4a.netlify.app/",
       glink:"https://github.com/createaniket/Responsive-Navbar-React"
 
     },
     {
       id: 4,
       src: textUtils,
-      link:"https://aniket-text-utilities.netlify.app/",
+      live:"https://aniket-text-utilities.netlify.app/",
       glink:"https://github.com/createaniket/TextUtils"
 
     },
     {
       id: 5,
       src: inotebook,
-      link:"https://aniket-inotebook.netlify.app/",
+      live:"https://aniket-inotebook.netlify.app/",
       glink:"https://github.com/createaniket/INoteBook"
 
     }
@@ -59,7 +59,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src , llink , glink}) => (
+          {portfolios.map(({ id, src , live , glink}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -68,7 +68,7 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
 
-                <a href={llink} rel="noreferrer" target="_blank">
+                <a href={live} rel="noreferrer" target="_blank">
 
 
                 <button className=" px-6 py-3 m-2 duration-200 hover:scale-105" >

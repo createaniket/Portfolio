@@ -48,10 +48,13 @@ const Portfolio = () => {
   return (
     <div
       name="works"
-      className="bg-gradient-to-b to-white from-slate-400 w-full text-black md:h-screen lg:h-auto "
+      className="bg-gradient-to-b to-white from-slate-400 w-full text-black "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pt-19 mt-10">
+
+        
+
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Works
           </p>
@@ -72,7 +75,9 @@ const Portfolio = () => {
 
 
                 <button className=" px-6 py-3 m-2 duration-200 hover:scale-105" >
-                  See Live
+                 <strong>
+                   See Live
+                  </strong>
                 </button>
                 </a>
               
@@ -82,7 +87,10 @@ const Portfolio = () => {
 
 
                   <button className=" px-6 py-3 m-2 duration-200 hover:scale-105" >
+                    <strong>
+
                     Code
+                    </strong>
                   </button>
                   </a>
               </div>

@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroImage from '../assets/heroImage1.jpg'
+import HeroImage from '../assets/heroimg.jpg'
 import { FaDownload } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen bg-gradient-to-b from-black via-black to-gray-800 text-gray-500'>
+    <div name="home" className='lg:h-screen bg-gradient-to-b from-black via-black to-gray-800 text-gray-500'>
 
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
 

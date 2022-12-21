@@ -52,7 +52,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full   h-screen bg-gradient-to-b  from-white to-slate-400 text-black "
+      className="w-full  bg-gradient-to-b  from-white to-slate-400 text-black lg:mt-10 lg:pt-10 "
     >
       <div className="max-w-screen-lg  p-4 mx-auto w-full h-full">
         <div className="pb-8 flex justify-center">
@@ -67,7 +67,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 lg:p-5">
           <div className="fleft m-auto">
             <p>
               My name is Aniket Pratap Singh and I'm a passionate Frontend

@@ -1,16 +1,35 @@
 import React from 'react'
 import HeroImage from '../assets/heroimg.jpg'
 import { FaDownload } from 'react-icons/fa';
+import Typewriter from 'typewriter-effect';
 
 const Home = () => {
+
   return (
     <div name="home" className='lg:h-screen bg-gradient-to-b from-black via-black to-gray-800 text-gray-500'>
 
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
 
                   <div className='flex flex-col justify-center h-full'>
+                  <h1 className='text-1xl sm:text-3xl font-bold text-white pt-2 m-2 pb-2 inline-block'>Helo, World</h1>
 
-                      <h1 className='text-4xl sm:text-7xl font-bold text-white pt-2 m-2 pb-2'>I'm a Fullstack Developer</h1>
+                    <h1 className='text-3xl sm:text-6xl font-bold text-white pt-2 m-2 pb-2 inline-block'>Aniket Pratap Singh</h1>
+
+                      <h1 className='text-2xl sm:text-4xl font-bold text-white pt-2 m-2 pb-2 inline-block'> and I'm a <span className='text-pink-600 inline-block' >
+                         <Typewriter
+                                                          options={{
+                                                            strings: ['Fullstack Developer', 'Javascript Developer' , 'Frontend Developer' , 'Backend Developer' , 'React Developer'],
+                                                            autoStart: true,
+                                                            loop: true,
+                                                            // cursor:String()
+                                                          }}/>
+                                                          </span>
+                                                          </h1>
+
+
+
+                                                                              
+                                                        
 
                       <p> Responsible for working on both front-end and back-end development processes. Able to design, develop and maintain fully-fledged and function platforms with databases or servers.
                       </p>

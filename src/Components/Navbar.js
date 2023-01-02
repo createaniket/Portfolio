@@ -46,7 +46,7 @@ const Navbar = () => {
         if(window.scrollY > 703){
 
 
-            setColor('bg-red-300')
+            setColor('bg-pink-600')
 
         }
         if(window.scrollY <= 703){

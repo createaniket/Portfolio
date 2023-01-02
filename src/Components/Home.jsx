@@ -35,7 +35,7 @@ const Home = () => {
                       </p>
 
                       <div>
-                        <a href="Aniket Pratap Singh Resume.docx (2).docx.pdf" target='_blank'>
+                        <a href="Aniket Pratap Singh Resume.pdf" target='_blank'>
                         <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md justify-center bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mt-3' >
                       Download Resume
                       <span className='px-2'>

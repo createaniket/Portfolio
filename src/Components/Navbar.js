@@ -62,14 +62,14 @@ const Navbar = () => {
     <>
     
     <div className={`flex justify-between items-center w-full h-20 text-white ${color} sticky top-0`}>
-      <h1 className='text font-signature pl-3'> </h1>
+    <h1 className='text-4xl pl-10'>PORTFOLIO</h1>
 <ul className='hidden md:flex'>    
 
 
       {links.map( ({id , link}) => (
 
 
-      <li key={id} className='px-4 cursor-pointer capitalize text-gray-500 font-medium hover:scale-105'>
+      <li key={id} className='px-4 cursor-pointer capitalize text-white font-medium hover:scale-105'>
         <Link to={link} smooth duration={500}>{link}</Link>
         </li>
 

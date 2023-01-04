@@ -1,5 +1,7 @@
 import React from "react";
 import plantShop from "../assets/portfolio/Final-logo-plant-shop.png";
+import natureverse from "../assets/portfolio/natureverselatpop and mobile.png";
+
 import inotebook from "../assets/portfolio/portfolio latpop and mobile.png";
 import navbar from "../assets/portfolio/navbarresp.png";
 import GamingProject from "../assets/portfolio/gamingProject.png";
@@ -16,7 +18,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: GamingProject,
+      src: natureverse,
       live:"https://aniket-dev-natureverse.netlify.app/",
       glink:"https://github.com/createaniket/Natureverse"
 

@@ -17,27 +17,35 @@ const Portfolio = () => {
     {
       id: 2,
       src: GamingProject,
+      live:"https://aniket-dev-natureverse.netlify.app/",
+      glink:"https://github.com/createaniket/Natureverse"
+
+
+    },
+    {
+      id: 3,
+      src: GamingProject,
       live:"https://aniket-gaming-site.netlify.app/",
       glink:"https://github.com/createaniket/gaming-site-project"
 
 
     },
     {
-      id: 3,
+      id: 4,
       src: navbar,
       live:"https://astonishing-basbousa-7fca4a.netlify.app/",
       glink:"https://github.com/createaniket/Responsive-Navbar-React"
 
     },
     {
-      id: 4,
+      id: 5,
       src: textUtils,
       live:"https://aniket-text-utilities.netlify.app/",
       glink:"https://github.com/createaniket/TextUtils"
 
     },
     {
-      id: 5,
+      id: 6,
       src: inotebook,
       live:"https://aniket-inotebook.netlify.app/",
       glink:"https://github.com/createaniket/INoteBook"

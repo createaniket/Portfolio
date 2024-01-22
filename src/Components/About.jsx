@@ -34,19 +34,19 @@ const About = () => {
     },
     {
       id: 9,
-      name: "ES 7",
-    },
-    {
-      id: 10,
       name: "REDUX",
     },
     {
-      id: 11,
+      id: 10,
       name: "GIT",
     },
     {
+      id: 11,
+      name: "AZURE",
+    },
+    {
       id: 12,
-      name: "ADOBE ILLUSTRATOR",
+      name: "AWS",
     },
   ];
   return (
@@ -57,12 +57,6 @@ const About = () => {
       <div className="max-w-screen-lg  p-4 mx-auto w-full h-full">
         <div className="pb-8 flex justify-center">
           <p className="text-4xl  font-bold inline border-b-4 border-gray-500">
- 
-
-
-
-
- 
             About
           </p>
         </div>
@@ -83,13 +77,11 @@ const About = () => {
           <div className="grid  grid-cols-2 lg:grid-cols-3 gap-3 mx-auto mt-8  ">
             {skills.map(({ id, name }) => (
               <div
-              
-              
-              key={id}
-              className="bg-zinc-300 rounded-md   flex justify-center ">
+                key={id}
+                className="bg-zinc-300 rounded-md   flex justify-center p-3"
+              >
                 {name}
               </div>
-             
             ))}
           </div>
         </div>

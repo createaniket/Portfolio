@@ -48,6 +48,18 @@ const About = () => {
       id: 12,
       name: "AWS",
     },
+    {
+      id: 14,
+      name: "WORDPRESS",
+    },
+    {
+      id: 14,
+      name: "SHOPIFY",
+    },
+    {
+      id: 15,
+      name: "HOSTINGER",
+    },
   ];
   return (
     <div

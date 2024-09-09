@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`flex justify-between items-center w-full h-20 text-white ${color} sticky top-0 z-1000`}
+        className={`flex justify-between items-center w-full h-20 text-white ${color} sticky top-0 z-50`}
       >
         <h1 className="text-4xl pl-10">PORTFOLIO</h1>
         <ul className="hidden md:flex">

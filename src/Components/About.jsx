@@ -76,11 +76,16 @@ const About = () => {
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 lg:p-5">
           <div className="fleft m-auto">
             <p>
-              My name is Aniket Pratap Singh and I'm a passionate Frontend
-              Developer (React & React Native), using web and mobile
-              technologies to build amazing products and solving problems for
-              different niches and different industries using the power of
-              technology.
+              Welcome to my portfolio! I'm Aniket Pratap Singh, a dedicated
+              software developer skilled in the MERN stack (MongoDB, Express.js,
+              React, Node.js), building dynamic web applications. I'm also
+              proficient in React Native, creating high-performance mobile apps
+              for both iOS and Android. With hands-on experience in industrial
+              projects, I apply my skills to solve real-world challenges and
+              deliver impactful solutions. Additionally, I'm adept at WordPress
+              and Shopify, allowing me to design, customize, and optimize
+              websites and e-commerce stores. My passion for learning keeps me
+              updated and drives success in every project.{" "}
             </p>
 
             {/* <p>I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.</p> */}
